@@ -1,0 +1,372 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+body{
+  background-color: black;
+}
+/* Navbar CSS Start */
+.navbar{
+  background-color: black;
+  width: 100%;
+  height: 75px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarItem{
+  color: white;
+  font-size: 32px !important;
+  font-weight: bold;
+  /* width: 8%; */
+  height: auto;
+  margin: 0;
+  padding: 0;
+  margin-left: 2%;
+}
+
+.navbarItem>a{
+  text-decoration: none;
+}
+
+.navbar>ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right: .5%;
+  
+}
+li>a{
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+ font-size: 24px;
+}
+a{
+  padding: 10px;
+  margin: 10px;
+}
+
+.navbar>ul{
+  display: flex;
+}
+
+li>a:hover{
+  font-size: 28px;
+}
+/* Navbar CSS Done */
+
+
+/* Home CSS Start */
+.banner {
+  height: 600px;
+  width: 100%;
+  background-color: grey;
+  background-image: url('https://media.istockphoto.com/photos/business-cards-stock-illustration-picture-id1309884850?b=1&k=20&m=1309884850&s=170667a&w=0&h=OgY9k_oZwDYs8E6gdG-20cmX3Kv_WCDnCqxG9BmCoIs=');
+  color: white;
+}
+
+.overlay {
+  height: 600px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+}
+
+.banner-text {
+  height: 320px;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  margin: 3%;
+}
+
+.padd{
+  padding: 20px 50px;
+}
+.padd>p:nth-child(1){
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(245, 85, 85);
+  padding: 5px 0;
+}
+.padd>h1{
+  font-size: 36px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.padd>p:nth-child(3){
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 10px 0;
+}
+.padd>p:nth-child(4){
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+.padd>button{
+  background-color: transparent;
+  color: white;
+  padding: 15px 60px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 10vw;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.padd>button:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(0, 0, 0);
+  border: 2px solid #000;
+}
+
+
+/* Home CSS End */
+
+/* About CSS Start */
+#about{
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 20px 0;
+}
+#about>h1{
+  color: rgb(245, 85, 85);
+  text-align: center;
+  margin: 24px 0;
+}
+.about{
+  display: flex;
+}
+.about>.image,.about>.content{
+  width: 50%;
+  height: 300px;
+}
+.image>img{
+  height: auto;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  margin: 5% 30%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+.content>.name{
+  margin: 5% 5%;
+}
+.name>p:nth-child(1){
+  font-size: 36px;
+}
+.name>p>span:nth-child(2){
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(245, 85, 85);
+}
+.name>p:hover , .name>p>span:nth-child(1):hover{
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(245, 85, 85);
+}
+.name>p:hover, .name>p>span:nth-child(2):hover{
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(245, 245, 245);
+}
+
+.name div{
+  font-size: 24px;
+}
+/* About CSS End */
+
+
+/* Skill CSS Start */
+.skills>h1{
+  color: rgb(245, 85, 85);
+  text-align: center;
+  margin: 24px 0;
+}
+.skill-content{
+  display: flex;
+  padding: 10px 25px;
+  justify-content: center;
+  align-content: center;
+
+}
+.skill{
+  text-align: center;
+}
+.skill-image>img{
+  height: auto;
+  width: 75px;
+  margin: 10px 20px;
+  padding: 0;
+}
+/* Skill CSS End */
+
+
+/* Experience CSS Start */
+.experience{
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 10px 0;
+  padding: 10px 0;
+}
+.experience>h1{
+  color: rgb(245, 85, 85);
+  text-align: center;
+  margin: 24px 0;
+  
+}
+
+
+.companies{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.company{
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+  margin: 30px;
+  width: 800px;
+}
+.company{
+  display: flex;
+}
+.company>.logo>img{
+  width: 400px;
+  margin: 0 20px;
+}
+.company>.company-detail{
+  margin: 0 20px;
+}
+.company-detail>.company-destination{
+  font-weight: bold;
+  font-size: 28px;
+  color: rgb(245, 85, 85);
+}
+.company-detail>.company-technology{
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.company-detail>.company-name{
+  margin-bottom: 10px;
+}
+.company-detail>.company-date{
+  font-weight: bold;
+}
+/* Experience CSS End */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer CSS Start */
+.main-footer {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  width: 100%;
+}
+section{
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+.logoinfo>h2{
+  padding: 5px 0;
+}
+ .logoinfo>p{
+  padding-bottom:10px;
+ }
+ .contact-detail>h1{
+  padding-top:10px;
+ }
+ .contact-detail>li{
+   list-style: none;
+   color: white;
+   font-size: 16px;
+   margin: 10px 0;
+ }
+  .contact-detail>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  } 
+.contact-detail>li>div{
+    margin-right: 5px;
+  } 
+.com>h1{
+  font-size: 22px;
+  line-height: 117%;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.com>ul{
+  list-style: none;
+  font-size: 16px;
+}
+.info>h1{
+  font-size: 22px;
+  line-height: 117%;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.sociallogos{
+  padding: 20px 0;
+}
+.sociallogos .logobox a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+}
+.logobox>.icons:nth-child(1):hover{
+  color: rgb(228, 64, 95);
+}
+.logobox>.icons:nth-child(2):hover{
+  color: rgb(23, 116, 255);
+}
+.logobox>.icons:nth-child(3):hover{
+  color: rgb(23, 116, 255);
+}
+.logobox>.icons:nth-child(4):hover{
+  color: rgb(255, 0, 0);
+}
+footer{
+  width: 100%;
+  background-color: #19302E;
+  border-top: 1px solid #6EB981;
+  font-size: 24px;
+  padding: 15px 5px;
+  color: #ffffff;
+  text-align: center;
+  
+}
+/* Footer CSS End */
