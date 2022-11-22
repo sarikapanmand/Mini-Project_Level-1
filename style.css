@@ -263,7 +263,7 @@
      cursor: pointer;
  }
  footer {
-    background-color: hsl(285, 18%, 36%);
+    background-color: rgba(163, 191, 159, 0.653);
     color: var(--secondary-color);
     text-align: center;
     font-weight: 700;
