@@ -108,7 +108,7 @@
      margin: 8px;
  }
  .gallery img:hover{
-     background-color: cream;
+     background-color: black;
      cursor: pointer;
  }
  
